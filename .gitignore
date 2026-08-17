@@ -1,0 +1,8 @@
+/target
+/dist
+**/*.rs.bk
+.DS_Store
+Cargo.lock
+*.wasm
+*.js
+!index.html

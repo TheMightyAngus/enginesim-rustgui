@@ -1,0 +1,5 @@
+[build]
+# Target is selected by trunk / cargo --target when building for WASM.
+
+[target.wasm32-unknown-unknown]
+rustflags = ["--cfg", "getrandom_backend=\"wasm_js\""]
